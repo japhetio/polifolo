@@ -1,0 +1,229 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Japhtio | My Christian Life</title>
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- AOS for animation -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <style>
+    body {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+<body class="bg-gray-900 text-white font-sans">
+
+  <!-- Header -->
+  <header class="fixed w-full bg-gray-800 shadow z-50">
+    <div class="max-w-6xl mx-auto p-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold">Japhtio</h1>
+      <nav class="space-x-4">
+        <a href="#about" class="hover:text-yellow-400">About</a>
+        <a href="#projects" class="hover:text-yellow-400">Projects</a>
+        <a href="#music" class="hover:text-yellow-400">My Songs</a>
+        <a href="#contact" class="hover:text-yellow-400">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="h-screen flex flex-col justify-center items-center text-center px-4" id="home">
+    <h2 class="text-5xl font-extrabold mb-4" data-aos="fade-down">Hi, I'm <span class="text-yellow-400">Japhtio</span></h2>
+    <p class="text-xl text-gray-300 max-w-2xl mb-6" data-aos="fade-up" data-aos-delay="200">
+      A Christian Web Developer, Music Artist & Purpose-Driven Life Changer.
+    </p>
+    <a href="#projects" class="bg-yellow-500 text-black px-6 py-3 rounded-full text-lg hover:bg-yellow-600 transition">Explore My Journey</a>
+  </section>
+
+  <!-- About Section -->
+  <section class="py-20 bg-gray-800" id="about">
+    <div class="max-w-5xl mx-auto text-center px-6">
+      <h3 class="text-3xl font-bold mb-4" data-aos="zoom-in">About Me</h3>
+      <div class="flex flex-col md:flex-row items-center gap-6" data-aos="fade-up" data-aos-delay="200">
+        <img src="https://via.placeholder.com/180" alt="Japhtio Profile" class="rounded-full w-44 h-44 border-4 border-yellow-400" />
+        <p class="text-lg text-gray-300">
+          I’m Japhtio — a passionate Christian using code, sound, and design to uplift the body of Christ. I believe in transforming lives with my talents through songs, digital tools, and gospel tech missions. Every line of code, every beat I produce, carries a purpose.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Achievements Section -->
+  <section class="py-20 bg-gray-900">
+    <div class="max-w-6xl mx-auto px-6">
+      <h3 class="text-3xl font-bold text-center mb-10" data-aos="fade-down">Achievements</h3>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-gray-800 p-6 rounded-xl shadow-md" data-aos="fade-up">
+          <h4 class="text-xl font-semibold mb-2">Gospel Hackathon Winner</h4>
+          <p class="text-gray-400">Won top prize for developing a gospel outreach app using React & Firebase.</p>
+        </div>
+        <div class="bg-gray-800 p-6 rounded-xl shadow-md" data-aos="fade-up" data-aos-delay="100">
+          <h4 class="text-xl font-semibold mb-2">Music Ministry Impact</h4>
+          <p class="text-gray-400">Released multiple spirit-filled songs with testimonies of healing and revival.</p>
+        </div>
+        <div class="bg-gray-800 p-6 rounded-xl shadow-md" data-aos="fade-up" data-aos-delay="200">
+          <h4 class="text-xl font-semibold mb-2">Tech for Churches</h4>
+          <p class="text-gray-400">Built digital platforms for Christian ministries across Nigeria.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="py-20 bg-gray-800" id="projects">
+    <div class="max-w-6xl mx-auto px-6">
+      <h3 class="text-3xl font-bold text-center mb-10" data-aos="fade-down">Projects & Works</h3>
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div class="bg-gray-900 p-6 rounded-xl shadow-md" data-aos="flip-left">
+          <h4 class="text-xl font-semibold mb-2">Church Website</h4>
+          <p class="text-gray-400">Responsive site for a growing congregation built with Tailwind + Firebase.</p>
+        </div>
+        <div class="bg-gray-900 p-6 rounded-xl shadow-md" data-aos="flip-right" data-aos-delay="100">
+          <h4 class="text-xl font-semibold mb-2">Music Distribution Site</h4>
+          <p class="text-gray-400">Streaming page for gospel tracks and albums. Built with HTML & JS.</p>
+        </div>
+        <div class="bg-gray-900 p-6 rounded-xl shadow-md" data-aos="flip-up" data-aos-delay="200">
+          <h4 class="text-xl font-semibold mb-2">AI Gospel Chatbot</h4>
+          <p class="text-gray-400">Bible Q&A chatbot powered by OpenAI for spiritual engagement.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Music Section -->
+  <section class="py-20 bg-gray-900" id="music">
+    <div class="max-w-5xl mx-auto text-center px-4">
+      <h3 class="text-3xl font-bold mb-6" data-aos="fade-up">My Songs</h3>
+      <div class="grid gap-4 md:grid-cols-2">
+        <div class="bg-gray-800 p-4 rounded shadow" data-aos="fade-right">
+          <h4 class="font-semibold mb-2">Aluahia</h4>
+          <audio controls class="w-full">
+            <source src="/music/aluahia.mp3" type="audio/mp3">
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+        <div class="bg-gray-800 p-4 rounded shadow" data-aos="fade-left">
+          <h4 class="font-semibold mb-2">Melody of Life</h4>
+          <audio controls class="w-full">
+            <source src="/music/melody.mp3" type="audio/mp3">
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="py-20 bg-gray-800" id="contact">
+    <div class="max-w-xl mx-auto px-4 text-center">
+      <h3 class="text-3xl font-bold mb-6" data-aos="fade-down">Contact Me</h3>
+      <form action="https://formsubmit.co/YOUR_EMAIL@gmail.com" method="POST" class="space-y-4" data-aos="fade-up">
+        <input type="text" name="name" placeholder="Your Name" required class="w-full p-3 rounded bg-gray-900 text-white">
+        <input type="email" name="email" placeholder="Your Email" required class="w-full p-3 rounded bg-gray-900 text-white">
+        <textarea name="message" placeholder="Your Message" rows="5" required class="w-full p-3 rounded bg-gray-900 text-white"></textarea>
+        <button type="submit" class="bg-yellow-500 text-black px-6 py-3 rounded hover:bg-yellow-600 transition">Send Message</button>
+      </form>
+      <div class="mt-6 text-gray-400 space-y-1">
+        <p><i class="fas fa-envelope"></i> japhtio@kingdommail.org</p>
+        <p><i class="fas fa-phone"></i> +234 812 345 6789</p>
+      </div>
+      <div class="mt-4 flex justify-center space-x-4 text-2xl">
+        <a href="#" class="hover:text-yellow-400"><i class="fab fa-facebook"></i></a>
+        <a href="#" class="hover:text-yellow-400"><i class="fab fa-twitter"></i></a>
+        <a href="#" class="hover:text-yellow-400"><i class="fab fa-instagram"></i></a>
+        <a href="#" class="hover:text-yellow-400"><i class="fab fa-youtube"></i></a>
+      </div>
+    </div>
+  </section>
+  <!-- Career & Work Section -->
+<section class="relative py-28 bg-gradient-to-b from-gray-900 to-gray-800 text-white overflow-hidden" id="career">
+  <!-- Decorative Bubbles -->
+  <div class="absolute top-0 left-0 w-full h-full -z-10 overflow-hidden">
+    <div class="absolute w-72 h-72 bg-yellow-500 opacity-20 rounded-full blur-3xl animate-pulse top-10 left-10"></div>
+    <div class="absolute w-64 h-64 bg-blue-400 opacity-20 rounded-full blur-2xl animate-bounce top-1/3 right-16"></div>
+    <div class="absolute w-52 h-52 bg-pink-500 opacity-10 rounded-full blur-2xl animate-ping bottom-16 left-20"></div>
+  </div>
+
+  <div class="max-w-6xl mx-auto px-6">
+    <h3 class="text-4xl font-bold text-center mb-16" data-aos="fade-down">Career, Work, Skills & Design</h3>
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-12">
+      <!-- All existing cards stay unchanged -->
+      <!-- Frontend Developer -->
+      <!-- Digital Music Producer -->
+      <!-- Church Tech Consultant -->
+      <!-- Christian Blogger -->
+      <!-- Creative Designer -->
+      <!-- Ministry Media Strategist -->
+      <!-- Evangelism App Developer -->
+      <!-- Faith-Based UX Researcher -->
+    </div>
+
+    <!-- Skills Section -->
+    <div class="mt-24" data-aos="fade-up">
+      <h4 class="text-3xl font-semibold text-center mb-8 text-yellow-400">Skills & Tools</h4>
+      <div class="flex flex-wrap justify-center gap-6">
+        <span class="bg-gray-700 px-5 py-2 rounded-full text-sm">HTML5</span>
+        <span class="bg-gray-700 px-5 py-2 rounded-full text-sm">Tailwind CSS</span>
+        <span class="bg-gray-700 px-5 py-2 rounded-full text-sm">JavaScript</span>
+        <span class="bg-gray-700 px-5 py-2 rounded-full text-sm">React</span>
+        <span class="bg-gray-700 px-5 py-2 rounded-full text-sm">Firebase</span>
+        <span class="bg-gray-700 px-5 py-2 rounded-full text-sm">Figma</span>
+        <span class="bg-gray-700 px-5 py-2 rounded-full text-sm">Canva</span>
+        <span class="bg-gray-700 px-5 py-2 rounded-full text-sm">Django</span>
+        <span class="bg-gray-700 px-5 py-2 rounded-full text-sm">Studio One</span>
+        <span class="bg-gray-700 px-5 py-2 rounded-full text-sm">UX Research</span>
+      </div>
+    </div>
+
+    <!-- Resume Button -->
+    <div class="text-center mt-16" data-aos="zoom-in">
+      <a href="resume-japhtio.pdf" download class="inline-block px-8 py-3 bg-yellow-500 hover:bg-yellow-400 text-gray-900 font-semibold rounded-full shadow-lg transition duration-300">Download My Resume</a>
+    </div>
+
+    <!-- Testimonials Section -->
+    <div class="mt-24" data-aos="fade-up">
+      <h4 class="text-3xl font-semibold text-center mb-10 text-yellow-400">What Others Say</h4>
+      <div class="grid md:grid-cols-2 gap-8">
+        <div class="bg-gray-800 p-6 rounded-xl shadow-lg">
+          <p class="text-gray-300 italic">“Japhtio is a gifted developer and music minister. He built our entire church system in weeks!”</p>
+          <p class="mt-4 text-sm text-yellow-300">— Pastor Emmanuel, Grace Chapel</p>
+        </div>
+        <div class="bg-gray-800 p-6 rounded-xl shadow-lg">
+          <p class="text-gray-300 italic">“His gospel songs and UX designs speak life. He’s anointed and professional.”</p>
+          <p class="mt-4 text-sm text-yellow-300">— Sister Ada, Gospel Artist</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Add Career link in nav -->
+<script>
+  const nav = document.querySelector('nav');
+  const careerLink = document.createElement('a');
+  careerLink.href = "#career";
+  careerLink.className = "hover:text-yellow-400";
+  careerLink.innerText = "Career";
+  nav.appendChild(careerLink);
+</script>
+
+<!-- Keep rest of your site content as it is -->
+
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-center p-4 text-gray-500">
+    <p>&copy; 2025 Japhtio | My Life, My Work, My Faith.</p>
+  </footer>
+
+  <!-- Init AOS -->
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
